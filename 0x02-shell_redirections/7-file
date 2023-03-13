@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Best School' > "\*\\"'"Best School"\'"\\*$\?\*\*\*\*\*:)"
+my_var=$(printf "%s%s%s" "\*" "\\'\"Best School\"\'" "\\*$\?\*\*\*\*\*:)"); echo 'Best School' > "$my_var"
