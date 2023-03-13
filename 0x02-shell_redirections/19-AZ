@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/A/Z/g' "$1"; sed -i 's/c/e/g' "$1"
